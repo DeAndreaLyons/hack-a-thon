@@ -1,44 +1,54 @@
+.topnav{
+    position: static;
+    background-color: #5a7721;
+    overflow:hidden;
+    font-family: 'Blinker', sans-serif;
+}
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size:17px;
+    font-family: 'Blinker', sans-serif;
+}
+
+.topnav a.active{
+    background-color: #cfb997;
+    color:white;
+}
+
 body{
-    background-color: olive
+    background-color: #b6c590;
+    color: #75805a;
+    font-family: 'Blinker', sans-serif;
+    margin-right: 50px;
 }
 
 h1 {
-  font-style: oblique;
+    margin-top: 40px;
+    margin-left: 10px;
+  font-family: 'Blinker', sans-serif;
+
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+p{
+    text-indent: 14px;
+    font-family: 'Blinker', sans-serif;
+    color: #75805a;
 }
 
-li {
-  float: left;
-}
 
-li {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 
 
 div {
   font-size: 15px;
+
 }
 
 h1{
     font-size: 16px;
+    padding-right:
 }
 
-.topnav{
-    position: static;
-    background-color: #5a7721;
-    overflow:hidden
-    font-family:'blinker', sans-serif
-
-}
